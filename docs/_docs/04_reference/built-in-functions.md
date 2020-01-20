@@ -1,11 +1,10 @@
 ---
 layout: collection-browser-doc
 title: Built-in functions
-category: Features
-categories_url: features
+category: reference
 excerpt: Terragrunt allows you to use built-in functions anywhere in `terragrunt.hcl`, just like Terraform.
 tags: ["functions"]
-order: 207
+order: 402
 nav_title: Documentation
 nav_title_link: /docs/
 ---

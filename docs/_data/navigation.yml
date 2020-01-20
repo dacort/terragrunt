@@ -34,11 +34,6 @@ children:
         href: /use-cases
         children:
           - include_nav: navigation-use-cases
-      - name: CLI options
-        href: /docs/getting-started/cli-options/
-        children:
-          - name: CLI options
-            href: /docs/getting-started/cli-options/#cli-options
       - name: Configuration
         href: /docs/getting-started/configuration/
         children:
@@ -63,39 +58,6 @@ children:
         children:
           - name: Including globally defined locals
             href: /docs/features/locals/#including-globally-defined-locals
-      - name: Built-in Functions
-        href: /docs/features/built-in-functions/
-        children:
-          - name: Terraform built-in functions
-            href: /docs/features/built-in-functions/#terraform-built-in-functions
-          - name: find_in_parent_folders
-            href: /docs/features/built-in-functions/#find_in_parent_folders
-          - name: path_relative_to_include
-            href: /docs/features/built-in-functions/#path_relative_to_include
-          - name: path_relative_from_include
-            href: /docs/features/built-in-functions/#path_relative_from_include
-          - name: get_env
-            href: /docs/features/built-in-functions/#get_env
-          - name: get_terragrunt_dir
-            href: /docs/features/built-in-functions/#get_terragrunt_dir
-          - name: get_parent_terragrunt_dir
-            href: /docs/features/built-in-functions/#get_parent_terragrunt_dir
-          - name: get_terraform_commands_that_need_vars
-            href: /docs/features/built-in-functions/#get_terraform_commands_that_need_vars
-          - name: get_terraform_commands_that_need_input
-            href: /docs/features/built-in-functions/#get_terraform_commands_that_need_input
-          - name: get_terraform_commands_that_need_locking
-            href: /docs/features/built-in-functions/#get_terraform_commands_that_need_locking
-          - name: get_terraform_commands_that_need_parallelism
-            href: /docs/features/built-in-functions/#get_terraform_commands_that_need_parallelism
-          - name: get_aws_account_id
-            href: /docs/features/built-in-functions/#get_aws_account_id
-          - name: get_aws_caller_identity_arn
-            href: /docs/features/built-in-functions/#get_aws_caller_identity_arn
-          - name: get_aws_caller_identity_user_id
-            href: /docs/features/built-in-functions/#get_aws_caller_identity_user_id
-          - name: run_cmd
-            href: /docs/features/built-in-functions/#run_cmd
 
       - name: Before and After Hooks
         href: /docs/features/before-and-after-hooks/
@@ -197,3 +159,54 @@ children:
         children:
           - name: License
             href: /docs/community/license/#license
+
+  - name: Reference
+    href: /docs/#reference
+    children:
+      - name: CLI options
+        href: /docs/reference/cli-options/
+        children:
+          - name: CLI options
+            href: /docs/reference/cli-options/#cli-options
+
+      - name: Built-in Functions
+        href: /docs/reference/built-in-functions/
+        children:
+          - name: Terraform built-in functions
+            href: /docs/reference/built-in-functions/#terraform-built-in-functions
+          - name: find_in_parent_folders
+            href: /docs/reference/built-in-functions/#find_in_parent_folders
+          - name: path_relative_to_include
+            href: /docs/reference/built-in-functions/#path_relative_to_include
+          - name: path_relative_from_include
+            href: /docs/reference/built-in-functions/#path_relative_from_include
+          - name: get_env
+            href: /docs/reference/built-in-functions/#get_env
+          - name: get_terragrunt_dir
+            href: /docs/reference/built-in-functions/#get_terragrunt_dir
+          - name: get_parent_terragrunt_dir
+            href: /docs/reference/built-in-functions/#get_parent_terragrunt_dir
+          - name: get_terraform_commands_that_need_vars
+            href: /docs/reference/built-in-functions/#get_terraform_commands_that_need_vars
+          - name: get_terraform_commands_that_need_input
+            href: /docs/reference/built-in-functions/#get_terraform_commands_that_need_input
+          - name: get_terraform_commands_that_need_locking
+            href: /docs/reference/built-in-functions/#get_terraform_commands_that_need_locking
+          - name: get_terraform_commands_that_need_parallelism
+            href: /docs/reference/built-in-functions/#get_terraform_commands_that_need_parallelism
+          - name: get_aws_account_id
+            href: /docs/reference/built-in-functions/#get_aws_account_id
+          - name: get_aws_caller_identity_arn
+            href: /docs/reference/built-in-functions/#get_aws_caller_identity_arn
+          - name: get_aws_caller_identity_user_id
+            href: /docs/reference/built-in-functions/#get_aws_caller_identity_user_id
+          - name: run_cmd
+            href: /docs/reference/built-in-functions/#run_cmd
+
+      - name: Configuration
+        href: /docs/reference/config_blocks_and_attributes
+        children:
+          - name: terraform Block
+            href: /docs/reference/configuration-blocks-and-attributes/#terraform
+          - name: remote_state Block
+            href: /docs/reference/configuration-blocks-and-attributes/#remote-state
