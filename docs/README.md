@@ -12,7 +12,17 @@ Clone or fork Terragrunt [repository](https://github.com/gruntwork-io/terragrunt
 
 ## Run
 
-1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/). Version 2.4 or above is recommended. 
+### Docker
+
+We provide `Dockerfile` and `docker-compose.yml` files that can be used for serving the site on docker. To use:
+
+1. Start docker.
+1. Run `docker-compose up`
+1. You can now access the site at `http://localhost:4000`
+
+### Native
+
+1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/). Version 2.4 or above is recommended.
    Consider using [rbenv](https://github.com/rbenv/rbenv) to manage Ruby versions.
 
 2. Install `bundler`:
@@ -41,7 +51,7 @@ Clone or fork Terragrunt [repository](https://github.com/gruntwork-io/terragrunt
 
 # Deployment
 
-GitHub Pages automatically rebuilds the website from the `/docs` folder whenever you commit and push to the `master` 
+GitHub Pages automatically rebuilds the website from the `/docs` folder whenever you commit and push to the `master`
 branch.
 
 # Working with the documentation
