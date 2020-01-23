@@ -85,20 +85,6 @@ children:
           - name: AWS IAM policies
             href: /docs/features/aws-auth/#aws-iam-policies
 
-      - name: Terragrunt settings
-        href: /docs/features/terragrunt-settings/
-        children:
-          - name: prevent_destroy
-            href: /docs/features/terragrunt-settings/#prevent_destroy
-          - name: skip
-            href: /docs/features/terragrunt-settings/#skip
-          - name: terraform_binary
-            href: /docs/features/terragrunt-settings/#terraform_binary
-          - name: download_dir
-            href: /docs/features/terragrunt-settings/#download_dir
-          - name: terraform_version_constraint
-            href: /docs/features/terragrunt-settings/#terraform_version_constraint
-
   - name: Community
     href: /docs/#community
     children:
@@ -204,3 +190,25 @@ children:
             href: /docs/reference/configuration-blocks-and-attributes/#terraform
           - name: remote_state Block
             href: /docs/reference/configuration-blocks-and-attributes/#remote-state
+          - name: include Block
+            href: /docs/reference/configuration-blocks-and-attributes/#include
+          - name: locals Block
+            href: /docs/reference/configuration-blocks-and-attributes/#locals
+          - name: dependency Block
+            href: /docs/reference/configuration-blocks-and-attributes/#dependency
+          - name: dependencies Block
+            href: /docs/reference/configuration-blocks-and-attributes/#dependencies
+          - name: inputs Attribute
+            href: /docs/reference/configuration-blocks-and-attributes/#inputs
+          - name: download_dir Attribute
+            href: /docs/reference/configuration-blocks-and-attributes/#download_dir
+          - name: prevent_destroy Attribute
+            href: /docs/reference/configuration-blocks-and-attributes/#prevent_destroy
+          - name: skip Attribute
+            href: /docs/reference/configuration-blocks-and-attributes/#skip
+          - name: iam_role Attribute
+            href: /docs/reference/configuration-blocks-and-attributes/#iam_role
+          - name: terraform_binary Attribute
+            href: /docs/reference/configuration-blocks-and-attributes/#terraform_binary
+          - name: terraform_version_constraint Attribute
+            href: /docs/reference/configuration-blocks-and-attributes/#terraform_version_constraint
