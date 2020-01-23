@@ -146,8 +146,40 @@ children:
       - name: CLI options
         href: /docs/reference/cli-options/
         children:
-          - name: CLI options
-            href: /docs/reference/cli-options/#cli-options
+          - name: terragrunt-config
+            href: /docs/reference/cli-options/#terragrunt-config
+          - name: terragrunt-tfpath
+            href: /docs/reference/cli-options/#terragrunt-tfpath
+          - name: terragrunt-no-auto-init
+            href: /docs/reference/cli-options/#terragrunt-no-auto-init
+          - name: terragrunt-no-auto-retry
+            href: /docs/reference/cli-options/#terragrunt-no-auto-retry
+          - name: terragrunt-non-interactive
+            href: /docs/reference/cli-options/#terragrunt-non-interactive
+          - name: terragrunt-working-dir
+            href: /docs/reference/cli-options/#terragrunt-working-dir
+          - name: terragrunt-download-dir
+            href: /docs/reference/cli-options/#terragrunt-download-dir
+          - name: terragrunt-source
+            href: /docs/reference/cli-options/#terragrunt-source
+          - name: terragrunt-source-update
+            href: /docs/reference/cli-options/#terragrunt-source-update
+          - name: terragrunt-ignore-dependency-errors
+            href: /docs/reference/cli-options/#terragrunt-ignore-dependency-errors
+          - name: terragrunt-iam-role
+            href: /docs/reference/cli-options/#terragrunt-iam-role
+          - name: terragrunt-exclude-dir
+            href: /docs/reference/cli-options/#terragrunt-exclude-dir
+          - name: terragrunt-include-dir
+            href: /docs/reference/cli-options/#terragrunt-include-dir
+          - name: terragrunt-ignore-dependency-order
+            href: /docs/reference/cli-options/#terragrunt-ignore-dependency-order
+          - name: terragrunt-ignore-external-dependencies
+            href: /docs/reference/cli-options/#terragrunt-ignore-external-dependencies
+          - name: terragrunt-include-external-dependencies
+            href: /docs/reference/cli-options/#terragrunt-include-external-dependencies
+          - name: terragrunt-check
+            href: /docs/reference/cli-options/#terragrunt-check
 
       - name: Built-in Functions
         href: /docs/reference/built-in-functions/
@@ -184,31 +216,31 @@ children:
             href: /docs/reference/built-in-functions/#run_cmd
 
       - name: Configuration
-        href: /docs/reference/config_blocks_and_attributes
+        href: /docs/reference/config-blocks-and-attributes
         children:
           - name: terraform Block
-            href: /docs/reference/configuration-blocks-and-attributes/#terraform
+            href: /docs/reference/config-blocks-and-attributes/#terraform
           - name: remote_state Block
-            href: /docs/reference/configuration-blocks-and-attributes/#remote-state
+            href: /docs/reference/config-blocks-and-attributes/#remote_state
           - name: include Block
-            href: /docs/reference/configuration-blocks-and-attributes/#include
+            href: /docs/reference/config-blocks-and-attributes/#include
           - name: locals Block
-            href: /docs/reference/configuration-blocks-and-attributes/#locals
+            href: /docs/reference/config-blocks-and-attributes/#locals
           - name: dependency Block
-            href: /docs/reference/configuration-blocks-and-attributes/#dependency
+            href: /docs/reference/config-blocks-and-attributes/#dependency
           - name: dependencies Block
-            href: /docs/reference/configuration-blocks-and-attributes/#dependencies
+            href: /docs/reference/config-blocks-and-attributes/#dependencies
           - name: inputs Attribute
-            href: /docs/reference/configuration-blocks-and-attributes/#inputs
+            href: /docs/reference/config-blocks-and-attributes/#inputs
           - name: download_dir Attribute
-            href: /docs/reference/configuration-blocks-and-attributes/#download_dir
+            href: /docs/reference/config-blocks-and-attributes/#download_dir
           - name: prevent_destroy Attribute
-            href: /docs/reference/configuration-blocks-and-attributes/#prevent_destroy
+            href: /docs/reference/config-blocks-and-attributes/#prevent_destroy
           - name: skip Attribute
-            href: /docs/reference/configuration-blocks-and-attributes/#skip
+            href: /docs/reference/config-blocks-and-attributes/#skip
           - name: iam_role Attribute
-            href: /docs/reference/configuration-blocks-and-attributes/#iam_role
+            href: /docs/reference/config-blocks-and-attributes/#iam_role
           - name: terraform_binary Attribute
-            href: /docs/reference/configuration-blocks-and-attributes/#terraform_binary
+            href: /docs/reference/config-blocks-and-attributes/#terraform_binary
           - name: terraform_version_constraint Attribute
-            href: /docs/reference/configuration-blocks-and-attributes/#terraform_version_constraint
+            href: /docs/reference/config-blocks-and-attributes/#terraform_version_constraint
